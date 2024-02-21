@@ -53,7 +53,7 @@
         <ul>
           <li><a href="#" onclick="highlightMenuItem(event)">Home</a></li>
           <li>
-            <a href="#mission-sct" onclick="highlightMenuItem(event)">About</a>
+            <a href="#mission-spacer" onclick="highlightMenuItem(event)">About</a>
           </li>
           <li>
             <a href="#spacer" onclick="highlightMenuItem(event)">Events</a>
@@ -80,7 +80,7 @@
             Dhabi
           </h1>
           <a
-            href="https://engage.nyuad.nyu.edu/actioncenter/organization/hackad"
+            href="https://engage.nyuad.nyu.edu/organization/hackad"
             class="btn btn-white btn- animate"
             target="_blank"
             >Join</a
@@ -88,6 +88,47 @@
         </div>
       </div>
     </div>
+    <div id="mission-spacer"></div>
+    <section class="container"> 
+      <section class="mission-sct" id="mission-sct">
+        <!-- <h1>Dedicated to fostering <span class = "highlight" >growth</span> and forging <span class = "highlight">bonds </span>within the CS community</h1> -->
+        <div class="mission-container">
+          <div class="mission-sct-txt">
+            <!-- <h2>About Us</h2> -->
+            <!-- <h2 id="mission-heading">About Us</h2> -->
+            <p><span id = "Mission" class="mission-heading" >Our Mission</span></p>
+            <h1>Dedicated to <span class = "highlight" >fostering growth</span> and <span class = "highlight">forging bonds </span>within the CS community</h1>
+            <!-- <p>Mission</p> -->
+            <p>
+              HackAD is a student interest group dedicated to supporting tech enthusiasts at New York University Abu Dhabi. 
+              Throughout the year, we organize technical workshops, discussion panels on internships, trips to tech hubs in the region, and the annual HackAD hackathon. 
+              Everyone, from all year levels and coding backgrounds, is welcome! 
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="details-sct" id="details-sct">
+      <div class="details-info">
+        <div class = "details-box-mid" id="detail_1">
+          <h1>81</h1>
+          <p>Events</p>
+        </div>
+        <div class = "details-box-mid" id="detail_2">
+          <h1>641</h1>
+          <p>Members</p>
+        </div>
+        <div class = "details-box-mid" id="detail_3">
+          <h1>8</h1>
+          <p>Years</p>
+        </div>
+        <!-- <div class = details-box></div>
+        <div class = details-box></div> -->
+      </div>
+    </section>
+
+
     <div id="archive-page">
       <div id="spacer"></div>
       <section class="past-event-sct" id="past-event-sct">
@@ -96,12 +137,15 @@
           <img src="images/left-arrow.png" id="left-arrow-btn" alt="" />
           <div class="title-container">
             <!-- <h2 id="year-semester-heading">Spring 2018</h2> -->
-            <h2 id="year-semester-heading">Fall 2022</h2>
+            <h2 id="year-semester-heading">Spring 2024</h2>
           </div>
           <img src="images/right-arrow.png" id="right-arrow-btn" alt="" />
         </div>
 
         <div class="past-event-container" id="past-event-container">
+          <div id="events-spring2024">
+            <img src="images/spring2024_1.png" alt="" />
+          </div>
           <div id="events-fall2023">
             <img src="images/fall2023_1.png" alt="" />
           </div>
@@ -150,7 +194,7 @@
             <img src="images/spring2020_2.png" alt="" />
           </div>
           <div id="events-fall2019">
-            <img src="images/fall2019_1.jpeg" alt="" />
+            <img src="images/fall2019_1.jpg" alt="" />
             <img src="images/fall2019_2.jpeg" alt="" />
           </div>
           <div id="events-spring2019">
@@ -186,7 +230,7 @@
           </section>
           <section class="member-box" id="member2">
             <div class="photo-container">
-              <img src="images/alisa.jpg" alt="Alisa's photo" />
+              <img src="images/blank.png" alt="Alisa's photo" />
             </div>
             <h2>Alisa Haoken</h2>
             <p>Vice President</p>
@@ -207,25 +251,61 @@
           </section>
           <section class="member-box" id="member5">
             <div class="photo-container">
-              <img src="images/dhyey.jpg" alt="Dhyey's photo" />
+              <img src="images/blank.png" alt="Dhyey's photo" />
             </div>
             <h2>Dhyey Vank</h2>
             <p>Community Engagement Officer</p>
           </section>
           <section class="member-box" id="member6">
             <div class="photo-container">
-              <img src="images/helin.jpg" alt="Helin's photo" />
-            </div>
-            <h2>Helin Mazi</h2>
-            <p>Treasurer</p>
-          </section>
-          <section class="member-box" id="member7">
-            <div class="photo-container">
               <img src="images/mahfuz.jpeg" alt="Mahfuz's photo" />
             </div>
             <h2>Shihan Mahfuz</h2>
             <p>Content Creator</p>
           </section>
+          <section class="member-box" id="member7">
+            <div class="photo-container">
+              <img src="images/blank.png" alt="Helin's photo" />
+            </div>
+            <h2>Helin Mazi</h2>
+            <p>Treasurer</p>
+          </section>
+        </div>
+      </section>
+      <section class="contact-sct" id="contact-sct">
+        <div class="contact-container" id="contact-container"> 
+        <h1 id="contact-heading"></h1>
+        <p>Stay updated on our latest events and announcements</p>
+         <div id="contact-info">
+          <div class="contact-box" id="instagram">
+            <a href="https://www.instagram.com/hackad.nyuad/" target="__blank">
+              <img src="images/instagram.png" alt="instagram logo"/>
+            </a>
+          </div>
+          <div class="contact-box" id="linkedin">
+            <a href="https://www.linkedin.com/company/hackad/" target="__blank">
+              <img src="images/linkedin.png" alt="linkedin logo" />
+            </a>
+          </div>
+          <div class="contact-box" id="slack">
+            <a href="https://hackad.slack.com/" target="__blank">
+              <img src="images/slacks.png" alt="linkedin logo" />
+            </a>
+          </div>
+          <div class="contact-box" id="mail">
+            <a href="mailto:nyuad.hackad.sig@nyu.edu" target="_blank">
+              <img src="images/gmail.png" alt="gmail logo" />
+            </a>
+          </div>
+         </div>
+       </section>
+       <section class="footer-sct">
+        <div class="footer-container">
+          <p>© HackAD 2024<br></p>
+          <a href="https://engage.nyuad.nyu.edu/organization/hackad" target="__blank">
+            <img
+              src="images/nyuad-logo.png" alt="nyu abu dhabi engage platform logo"/> 
+            </a>
         </div>
       </section>
     </div>
@@ -265,26 +345,5 @@
               src="images/engage-logo.png"
               alt="nyu abu dhabi engage platform logo"
           /></a> -->
-
-    <!-- <section class="footer-sct">
-      <div class="footer-container">
-        <a href="https://www.instagram.com/hackad.nyuad/" target="__blank"
-          ><img src="images/instagram-logo.png" alt="instagram logo"
-        /></a>
-        <a href="https://www.linkedin.com/company/hackad/" target="__blank"
-          ><img src="images/linkedin-logo.png" alt="linkedin logo"
-        /></a>
-        <a href="https://hackad.slack.com/" target="__blank"
-          ><img src="images/slack-logo.png" alt="slack logo"
-        /></a>
-        <a
-          href="https://engage.nyuad.nyu.edu/organization/hackad"
-          target="__blank"
-          ><img
-            src="images/engage-logo.png"
-            alt="nyu abu dhabi engage platform logo"
-        /></a>
-      </div>
-    </section> -->
   </body>
 </html>
